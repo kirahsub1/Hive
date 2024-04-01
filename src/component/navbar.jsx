@@ -1,16 +1,26 @@
 import React from "react";
-
+import logo from "../images/Logo.png";
+import "../css/navbar.css";
 const navbar = () => {
   return (
-    <div className="text-gray flex justify-between items-center h-24">
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">Hive</h1>
-      <ul className="">
-        <li>Home</li>
-        <li>Tracking</li>
-        <li>About Us</li>
-        <li>Services</li>
-      </ul>
-    </div>
+    <nav className="navbar">
+      <div className="navbar-logo">
+        <img src={logo} alt="Logo" />
+      </div>
+      <div>
+        <ul className="menu">
+          <a href="#">Home</a>
+          <a href="#">Tracking</a>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+
+        </ul>
+      </div>
+      <div className="navbar-buttons">
+        <button className="btn-signin">Sign In</button>
+        <button className="btn-register">Register</button>
+      </div>
+    </nav>
   );
 };
 
