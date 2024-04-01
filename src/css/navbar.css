@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
+  padding-left: 250px;
+  padding-right: 250px;
   background-color: #fff;
   color: #fff;
 }
@@ -22,9 +24,4 @@
 
 .navbar-buttons button:hover {
   background-color: #fff;
-}
-.navbar ul {
-     color: #fff;
-  text-decoration: none;
-  padding: 10px
 }

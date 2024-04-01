@@ -7,14 +7,12 @@ const navbar = () => {
       <div className="navbar-logo">
         <img src={logo} alt="Logo" />
       </div>
-      <div>
-        <ul className="menu">
+      <div className="menu">
           <a href="#">Home</a>
           <a href="#">Tracking</a>
           <a href="#">About Us</a>
           <a href="#">Services</a>
-
-        </ul>
+      
       </div>
       <div className="navbar-buttons">
         <button className="btn-signin">Sign In</button>

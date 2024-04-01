@@ -1,4 +1,3 @@
-/* Style the form container */
 .form-container {
   max-width: 400px;
   margin: 0 auto;
@@ -16,7 +15,6 @@
 .form-container input[type="text"],
 .form-container input[type="email"],
 .form-container input[type="password"],
-.form-container input[type="home address"]
  .form-container textarea {
   width: 100%;
   padding: 10px;
