@@ -1,15 +1,15 @@
-import React from 'react'
-import Navbar from './component/navbar'
-import Register from './component/register'
-import Login from './component/login'
+import React from 'react';
+import Home from "./pages/home"
+
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-      <Register/>
-      <Login/>
-    </div>
-  )
+    
+          <div>
+            <Home/>
+          </div>
+        
+  
+  );
 }
 
 export default App

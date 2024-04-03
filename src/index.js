@@ -1,37 +1,26 @@
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import "./index.css";
-// // import App from "./App";
-// import Home from "./pages/home";
-
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//           <Route index element={<Home />} />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<App />);
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./index.css";
-import Home from "./pages/home"; // Assuming Home is the default page
+import Layout from "./pages/layout";
+import Home from "./pages/home";
 import Register from "./pages/register";
-// Concisely render the app with routing
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
+import Login from "./pages/login";
+import Nopage from "./pages/nopage" // Uncomment if needed
+
+export default function App() {
+  return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Default route for Home */}
-         <Route path="/" element={<Register />} /> {/* Default route for Register */}
+        <Route path="/" element={<Layout />} /> {/* Default route */}
+        <Route index element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/nopage" element={<Nopage />} />
+        {/* <Route path="*" element={<NotFound />} />  {/* Catch-all for unmatched routes */}
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
-);
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);

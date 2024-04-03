@@ -1,19 +1,17 @@
 import React from "react";
-import logo from "../images/Logo.png";
-import "../css/navbar.css";
+import logo from "../asset/hive-logo.png";
+import "../css/navbar.css"
 const navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
         <img src={logo} alt="Logo" />
       </div>
-      <div className="menu">
-          <a href="#">Home</a>
-          <a href="#">Tracking</a>
-          <a href="#">About Us</a>
-          <a href="#">Services</a>
+        <a href="https://www.dwolla.com/">Home</a>
+        <a href="https://www.dwolla.com/">Tracking</a>
+        <a href="https://www.dwolla.com/">About Us</a>
+        <a href="https://www.dwolla.com/">Services</a>
       
-      </div>
       <div className="navbar-buttons">
         <button className="btn-signin">Sign In</button>
         <button className="btn-register">Register</button>
