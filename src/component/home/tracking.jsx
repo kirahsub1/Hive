@@ -1,9 +1,10 @@
 import React from 'react'
 import Img1 from "../asset/lady-tracking.png"
+import "../css/tracking.css"
 
 const tracking = () => {
   return (
-    <div>
+    <div className='track'>
       <img src={Img1} alt="Lady-tracking" />
       <div>
         <h1>Track Your Package On The Go! </h1>

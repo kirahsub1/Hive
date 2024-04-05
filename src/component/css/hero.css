@@ -3,11 +3,12 @@
   background-image: url("https://res.cloudinary.com/dgcjq4kbf/image/upload/v1712060728/World_Map_i8cijf.png"); /* Replace 'hero-background.jpg' with your image file */
   background-size: cover;
   background-position: center;
-  /* height: 80vh;  */
+  height: 50vh; 
   /* text-align: center; */
-  /* display: flex; */
+  margin-bottom: 90px;
+  /* display: inline; */
   flex-direction: row;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
@@ -41,7 +42,7 @@
 }
 .hero-image {
   overflow: hidden;
-  display: flex;
+  display: inline;
   float: inline-end;
   padding-bottom: 120px;
 }

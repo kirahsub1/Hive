@@ -4,7 +4,10 @@ import img1 from "../asset/bike-guy.png"
  
 const hero = () => {
   return (
-    <div className='hero'>
+    <div className="hero">
+      <span className="hero-image">
+        <img src={img1} alt="hero-img" />
+      </span>
       <div className="hero-content">
         <h1>
           Logistics mode <br /> simple, Reliable & <br /> Efficient
@@ -16,9 +19,6 @@ const hero = () => {
         <a href="#" class="btn">
           Getting Started
         </a>
-        <div className="hero-image">
-          <img src={img1} alt="hero-img" />
-        </div>
       </div>
     </div>
   );

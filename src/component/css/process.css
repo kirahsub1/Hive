@@ -1,5 +1,6 @@
 .process{
     background-color: rgb(241, 175, 8);
+    flex-direction: row;
 }
 .text1{
     padding-top: 90px;
