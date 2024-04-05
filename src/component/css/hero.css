@@ -3,15 +3,16 @@
   background-image: url("https://res.cloudinary.com/dgcjq4kbf/image/upload/v1712060728/World_Map_i8cijf.png"); /* Replace 'hero-background.jpg' with your image file */
   background-size: cover;
   background-position: center;
-  height: 80vh; 
-  display: flex;
+  /* height: 80vh;  */
+  /* text-align: center; */
+  /* display: flex; */
+  flex-direction: row;
+  grid-template-columns: 2fr 2fr;
   align-items: center;
-  justify-content: start;
-  text-align: center;
 }
 
 .hero-content {
-  max-width: 800px;
+  /* max-width: 800px; */
   padding: 20px;
 }
 
@@ -28,7 +29,7 @@
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff; /* Button background color */
+  background-color: #f6be06; /* Button background color */
   color: #fff; /* Button text color */
   text-decoration: none;
   border-radius: 5px;
@@ -36,5 +37,17 @@
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Button background color on hover */
+  background-color: #765308; /* Button background color on hover */
+}
+.hero-image {
+  overflow: hidden;
+  display: flex;
+  float: inline-end;
+  padding-bottom: 120px;
+}
+.hero-image img {
+  /* width: 100%; */
+  /* height: 100%; */
+  padding-bottom: 90px;
+  object-fit: contain;
 }

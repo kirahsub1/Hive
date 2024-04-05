@@ -1,28 +1,27 @@
-body {
-  padding-left: 200px;
-  padding-right: 200px;
-}
+
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   /* margin-left: 20px;
   margin-right: 200px; */
   /* position: fixed;
   top: 0;
   left: 0;
   width: 100%; */
-  background-color: #f9a201;
+  background-color: #fff;
   color: #000;
 }
-.navbar a {
+ a {
   float: left;
   display: block;
-  color: white;
+  color: #000;
+  margin: 5px;
   text-align: center;
-  padding: 1px 1px; /* Adjust padding as needed */
+  padding-right: 10px;
+  padding-right: 10px; /* Adjust padding as needed */
   text-decoration: none;
 }
 
@@ -34,11 +33,11 @@ body {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 8px;
-  background-color: #f4b811;
+  background-color:  #f9a201;
   color: #fff;
   cursor: pointer;
 }
 
 .navbar-buttons button:hover {
-  background-color: #fff;
+  background-color: #000;
 }

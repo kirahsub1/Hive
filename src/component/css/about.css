@@ -1,0 +1,38 @@
+.container1 {
+    
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 200px;
+    display: grid;
+}
+
+header {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* section {
+    margin-bottom: 40px;
+} */
+
+h2 {
+    color: #555;
+}
+
+p {
+    color: #777;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 800px;
+
+}
