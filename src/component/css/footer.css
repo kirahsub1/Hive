@@ -1,0 +1,38 @@
+.footer {
+  background-color: rgb(75, 78, 81);
+  color: #959393;
+  display: flex;
+  height: 500px;
+  padding-left: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  padding-right: 40px;
+  margin-top: 90px;
+  width: 100px;
+  height: 112px;
+}
+.footerword1 {
+  padding-left: 90px;
+  justify-content: center;
+  align-items: center;
+}
+.footerword {
+  padding-left: 50px;
+  padding-right: 20px;
+  text-align: center;
+  margin-top: 90px;
+  justify-content: center;
+}
+.basics {
+  color: rgb(221, 165, 12);
+}
+.sociamedia {
+  margin-top: 90px;
+  padding-left: 200px;
+}
+.sociamedia h1 {
+  margin-top: 90px;
+}

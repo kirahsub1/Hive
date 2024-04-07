@@ -1,3 +1,11 @@
-.track {
+.track1 {
+    background-color: rgb(244, 176, 4);
+    width: 2500px;
+    height: 560px;
+}
+.track{
+    display: flex;
     flex-direction: row;
+    align-items: center;
+
 }

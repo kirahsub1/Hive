@@ -7,6 +7,8 @@ import Register from "./pages/register";
 import Login from "./pages/login";
 import Nopage from "./pages/nopage" // Uncomment if needed
 
+
+
 export default function App() {
   return (
     <BrowserRouter>
