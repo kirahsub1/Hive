@@ -1,6 +1,7 @@
 .contact {
   background-color: rgb(236, 239, 233);
   display: flex;
+  width: 100%;
 }
 .map {
   padding-left: 250px;

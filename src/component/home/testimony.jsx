@@ -13,7 +13,7 @@ const testimony = () => {
           orders and receive your orders promptly.
         </p>
       </section>
-      <div className="test">
+      <div className="test1">
         <img src={Img0} alt="Review" />
         <p className='yemi'>yemisi</p>
         <p>
@@ -23,7 +23,7 @@ const testimony = () => {
         </p>
       </div>
 
-      <div className="test">
+      <div className="test2">
         <img src={Img1} alt="Review" />
         <p className='yemi'> Yemisi</p>
         <p>
@@ -33,7 +33,7 @@ const testimony = () => {
         </p>
       </div>
 
-      <div className="test">
+      <div className="test3">
         <img src={Img2} alt="Review" />
         <p className='yemi'>Yemisi</p>
         <p>

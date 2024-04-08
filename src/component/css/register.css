@@ -1,23 +1,38 @@
 /* Style the form container */
-.form-container {
-  max-width: 400px;
+.form-container1 {
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 700px;
 }
-
+.register-form {
+  background-image: url("https://res.cloudinary.com/dgcjq4kbf/image/upload/v1712060728/World_Map_i8cijf.png");
+  background-size: cover;
+  background-color: darkorange;
+  height: 1200px;
+}
+.form-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding: 40px;
+}
 /* Style form elements */
-.form-container label {
+.form-container1 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
-.form-container input[type="text"],
-.form-container input[type="email"],
-.form-container input[type="password"],
-.form-container input[type="home address"]
- .form-container textarea {
+.form-container1 input[type="text"],
+.form-container1 input[type="email"],
+.form-container1 input[type="password"],
+.form-container1 input[type="phone number"],
+.form-container1 input[type="home address"],
+.form-container1 input[type="work address"],
+.form-container1 textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -27,16 +42,22 @@
 }
 
 /* Style form button */
-.form-container button {
+.form-container1 button {
   width: 100%;
   padding: 10px;
-  background-color: #e0ab27;
+  background-color: #fb7005;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.form-container button:hover {
+.form-container1 button:hover {
   background-color: #f1cf10;
+}
+.form-text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -3,6 +3,7 @@
     width: 2500px;
     height: 560px;
 }
+
 .track{
     display: flex;
     flex-direction: row;

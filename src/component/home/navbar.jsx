@@ -7,15 +7,20 @@ const navbar = () => {
       <div className="navbar-logo">
         <img src={logo} alt="Logo" />
       </div>
-      
-        <a href="https://www.dwolla.com/">Home</a>
-        <a href="https://www.dwolla.com/">Tracking</a>
-        <a href="https://www.dwolla.com/">About Us</a>
-        <a href="https://www.dwolla.com/">Services</a>
+
+      <a href="/home">Home</a>
+      <a href="/home/tracking.jsx">Tracking</a>
+      <a href="/home/about">About Us</a>
+      <a href="/home/services">Services</a>
+
       
       <div className="navbar-buttons">
-        <button className="btn-signin">Sign In</button>
-        <button className="btn-register">Register</button>
+        <a href="/login">
+          <button className="btn-signin">Sign In</button>
+        </a>
+        <a href="/register">
+          <button className="btn-register">Register</button>
+        </a>
       </div>
     </nav>
   );

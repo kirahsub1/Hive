@@ -3,7 +3,9 @@
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 20px;
+  background-color: #fff;
+  height: 500px;
 }
 
 /* Style form elements */
@@ -24,11 +26,24 @@
   box-sizing: border-box; /* Ensure padding and border don't add to the element's width */
 }
 
+.login-form{
+  background-image: url("https://res.cloudinary.com/dgcjq4kbf/image/upload/v1712060728/World_Map_i8cijf.png"); 
+  background-size: cover;
+  background-color: darkorange;
+  height: 1000px;
+}
+.form-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 40px;
+}
 /* Style form button */
 .form-container button {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #ffb301;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -36,5 +51,5 @@
 }
 
 .form-container button:hover {
-  background-color: #0056b3;
+  background-color: #2b2f33;
 }

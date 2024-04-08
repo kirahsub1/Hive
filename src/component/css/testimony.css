@@ -1,22 +1,39 @@
-.test{
- width: 500px;
- height: 200px;
-  margin: 0 auto;
+.test1 {
+  width: 400px;
+  height: 280px;
   padding: 20px;
   border-radius: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: darkorange;
+  margin-top: 20px;
+}
+.testimony {
   display: flex;
-  align-items: center;
-  margin-left: 40px;
-  background-color: goldenrod;
-  color: #f9f9f9;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 600px;
 }
-.yemi{
-    align-items: center;
-}
-.peak{
-    align-items: center;
 
+.test2 {
+  width: 400px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: rgb(70, 61, 61);
+  color: #f9f9f9;
+  margin-top: 20px;
+  padding: 20px;
+}
+.test3 {
+  width: 400px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: rgb(19, 77, 77);
+  color: #f9f9f9;
+  margin-top: 20px;
+  padding: 20px;
+}
+.yemi {
+  align-items: center;
+}
+.peak {
+  align-items: center;
 }
