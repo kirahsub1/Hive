@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import icon1 from "../asset/google.png";
 import icon2 from "../asset/Button-apple.png";
 import icon3 from "../asset/facebook1.png";
 import formlogo1 from "../asset/hive-logistics-logo.png";
-import "../css/login.css"
+import "../css/login.css";
 const login = () => {
   return (
     <div className="login-form">
@@ -34,9 +34,9 @@ const login = () => {
             autoComplete="off"
           />
         </lable>
-        <p>forget password</p>
+        <p>forget password ?</p>
         <button type="button">Sign In</button>
-        <p className='login-text'>Or Connect with:</p>
+        <p className="login-text">Or Connect with:</p>
 
         <div className="form-icon">
           <img src={icon1} alt="google" />
@@ -46,6 +46,6 @@ const login = () => {
       </form>
     </div>
   );
-}
+};
 
-export default login
+export default login;
