@@ -1,7 +1,11 @@
 .services-content {
   background-color: aliceblue;
   padding-right: 20px;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: 100%;
+  justify-content: center;
   
 }
 .delivery{
@@ -10,4 +14,27 @@
   display: flex;
   margin-left: 20px;
   justify-content: space-between;
+  padding: 20px;
+  
+}
+.img1 {
+  padding-left: 40px;
+}
+.img2{
+  padding-left: 60px;
+}
+.img3{
+  padding-left: 60px;
+}
+.img4{
+  padding-left: 60px;
+}
+.myspan{
+  color:blueviolet;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: darkorange;
+  height: 40px;
+  padding-right: 90px;
+  
 }

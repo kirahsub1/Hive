@@ -3,7 +3,7 @@ import Img from "../asset/Rectangle 10.png";
 import "../css/about.css"
 const about = () => {
   return (
-    <div class="container1">
+    <div class="container0">
       <div class="team-member">
         <img src={Img} alt="About Us" />
       </div>

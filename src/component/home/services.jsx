@@ -8,23 +8,23 @@ import "../css/services.css";
 const services = () => {
   return (
     <div className="services-content">
-      <span>
+      <span className="myspan">
         How We <br /> Serve You
       </span>
       <div className="delivery">
-        <div>
+        <div className="img1">
           <img src={Img1} alt="bicycle-delivery" />
           <p>Bicyle Delivery</p>
         </div>
-        <div>
+        <div className="img2">
           <img src={Img2} alt="motorcycle-delivery" />
           <p>Motorcycle Delivery</p>
         </div>
-        <div>
+        <div className="img3">
           <img src={Img3} alt="car-delivery" />
           <p>Car Delivery</p>
         </div>
-        <div>
+        <div className="img4">
           <img src={Img4} alt="van-delivery" />
           <p>Van Delivery</p>
         </div>
